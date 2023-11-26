@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<EDIT appVersion="Waveform 12.5.11" projectID="4e4194/1e6857c" creationTime="1700670129252"
-      lastSignificantChange="18c017536c3" modifiedBy="holla">
-  <TRANSPORT endToEnd="1" position="0.0" scrubInterval="2.31579426963739"
+<EDIT appVersion="Waveform 12.5.11" projectID="4e4194/2a51b73" creationTime="1700670129252"
+      lastSignificantChange="18c01734aa1" modifiedBy="holla">
+  <TRANSPORT endToEnd="1" position="7.629931972789116" scrubInterval="2.315794269637392"
              loopPoint1="0.0" loopPoint2="0.0"/>
   <MACROPARAMETERS id="1001"/>
   <PITCHSEQUENCE>
@@ -29,19 +29,20 @@
     <INPUTDEVICE name="Virtual">
       <INPUTDEVICEDESTINATION targetTrack="1012" targetIndex="0"/>
     </INPUTDEVICE>
+    <INPUTDEVICE name="Input channel 1"/>
   </INPUTDEVICES>
   <TRACKCOMPS/>
   <ARADOCUMENT/>
   <CONTROLLERMAPPINGS/>
   <VIEWSTATE minimalTransportBar="1" hiddenClips="1070" lockedClips="1070,1071"
              chordTrackVisible="0" arrangerTrackVisible="0" enabledTrackTags=""
-             currentSidePanel="Search" viewleft="-2.289842718824051" viewright="113.4998707630455"
-             midiEditorShown="0" midiEditorHeight="2.19523286819458" scrollWhenPlaying="1"
-             scrollSuspended="0" midiPanelFloating="1" midiPanelBounds="fs 560 320 800 400"/>
+             currentSidePanel="Search" viewleft="-1.226369427875053" viewright="114.5633440539946"
+             midiEditorShown="0" midiEditorHeight="2.19523286819458" scrollWhenPlaying="0"
+             scrollSuspended="1" midiPanelFloating="1" midiPanelBounds="fs 560 320 800 400"/>
   <EDITMIXGROUPS/>
   <AUDIOEDITING/>
-  <MIDIVIEWSTATE scrollWhenPlaying="1" verticalOffset="0.2496670022915546" visibleProportion="0.5326702236390839"
-                 rightTime="22.27535529390734" leftTime="0.6353603342299168" notePanelProportion="0.8139130473136902"
+  <MIDIVIEWSTATE scrollWhenPlaying="1" verticalOffset="0.25" visibleProportion="0.5326702236390839"
+                 rightTime="111.6923117307691" leftTime="83.999999551282" notePanelProportion="0.8139130473136902"
                  scrollSuspended="0" snapMode="264454"/>
   <ARRANGERTRACK name="Arranger" id="1054">
     <MACROPARAMETERS id="1055"/>
@@ -64,10 +65,10 @@
     <MODIFIERS/>
   </MASTERTRACK>
   <TRACK id="1006" midiVProp="0.28125" midiVOffset="0.359375" colour="ffff0000"
-         solo="1">
+         solo="0">
     <MACROPARAMETERS id="1007"/>
     <MODIFIERS/>
-    <MIDICLIP channel="1" name="channel 1 - friend4.mid" start="0.0" length="29.5384615384615"
+    <MIDICLIP channel="1" name="channel 1 - friend4.mid" start="0.0" length="29.53846153846152"
               offset="0.0" id="1066" sync="0" colour="ffffaa00" currentTake="0"
               speed="1.0" volDb="0.0">
       <SEQUENCE ver="1" channelNumber="1">
@@ -488,8 +489,8 @@
         <PROGRESSION/>
       </PATTERNGENERATOR>
     </MIDICLIP>
-    <MIDICLIP channel="1" name="channel 1 - friend4.mid" start="29.5384615384615"
-              length="29.53845705128207" offset="29.5384615384615" id="1070"
+    <MIDICLIP channel="1" name="channel 1 - friend4.mid" start="29.53846153846152"
+              length="29.53845705128205" offset="29.53846153846152" id="1070"
               sync="0" colour="ffffaa00" currentTake="0" speed="1.0" volDb="0.0">
       <SEQUENCE ver="1" channelNumber="1">
         <CONTROL b="0.25" type="64" val="0"/>
@@ -1335,10 +1336,10 @@
         <NOTE p="67" b="65.75" l="0.25" v="40" c="0"/>
         <NOTE p="57" b="65.0" l="0.25" v="40" c="0"/>
         <NOTE p="60" b="65.25" l="0.25" v="40" c="0"/>
-        <NOTE p="33" b="64.0" l="4.0" v="60" c="0"/>
-        <NOTE p="36" b="68.0" l="4.0" v="60" c="0"/>
-        <NOTE p="45" b="64.0" l="4.0" v="55" c="0"/>
-        <NOTE p="48" b="68.0" l="4.0" v="55" c="0"/>
+        <NOTE p="33" b="64.0" l="0.5" v="64" c="0"/>
+        <NOTE p="36" b="68.0" l="0.5" v="64" c="0"/>
+        <NOTE p="45" b="64.25" l="0.5" v="64" c="0"/>
+        <NOTE p="48" b="68.25" l="0.5" v="64" c="0"/>
         <NOTE p="55" b="68.0" l="0.25" v="40" c="0"/>
         <NOTE p="60" b="68.25" l="0.25" v="40" c="0"/>
         <NOTE p="64" b="68.5" l="0.25" v="40" c="0"/>
@@ -1356,8 +1357,8 @@
         <NOTE p="64" b="71.5" l="0.25" v="40" c="0"/>
         <NOTE p="67" b="71.75" l="0.25" v="40" c="0"/>
         <NOTE p="64" b="68.0" l="0.25" v="65" c="0"/>
-        <NOTE p="35" b="76.0" l="4.0" v="60" c="0"/>
-        <NOTE p="47" b="76.0" l="4.0" v="55" c="0"/>
+        <NOTE p="35" b="76.0" l="0.4999999999999858" v="64" c="0"/>
+        <NOTE p="47" b="76.25" l="0.4999999999999858" v="64" c="0"/>
         <NOTE p="57" b="72.0" l="0.25" v="40" c="0"/>
         <NOTE p="60" b="72.25" l="0.25" v="40" c="0"/>
         <NOTE p="62" b="72.5" l="0.25" v="40" c="0"/>
@@ -1378,8 +1379,8 @@
         <NOTE p="60" b="64.0" l="0.25" v="65" c="0"/>
         <NOTE p="60" b="68.0" l="0.25" v="65" c="0"/>
         <NOTE p="62" b="72.0" l="0.25" v="65" c="0"/>
-        <NOTE p="38" b="72.0" l="4.0" v="60" c="0"/>
-        <NOTE p="50" b="72.0" l="4.0" v="55" c="0"/>
+        <NOTE p="38" b="72.0" l="0.4999999999999858" v="64" c="0"/>
+        <NOTE p="50" b="72.25" l="0.5" v="64" c="0"/>
         <NOTE p="74" b="76.0" l="0.25" v="65" c="0"/>
         <NOTE p="71" b="76.0" l="0.25" v="65" c="0"/>
         <NOTE p="59" b="79.0" l="0.25" v="40" c="0"/>
@@ -1516,6 +1517,34 @@
         <NOTE p="52" b="85.0" l="0.5" v="44" c="0"/>
         <NOTE p="53" b="86.0" l="0.5" v="60" c="0"/>
         <NOTE p="53" b="87.0" l="0.5" v="47" c="0"/>
+        <NOTE p="52" b="64.75" l="0.5" v="64" c="0"/>
+        <NOTE p="45" b="65.5" l="0.5" v="64" c="0"/>
+        <NOTE p="48" b="65.75" l="0.5" v="64" c="0"/>
+        <NOTE p="52" b="66.0" l="0.5" v="64" c="0"/>
+        <NOTE p="55" b="66.25" l="0.5" v="64" c="0"/>
+        <NOTE p="52" b="68.75" l="0.5" v="64" c="0"/>
+        <NOTE p="47" b="69.5" l="0.5" v="64" c="0"/>
+        <NOTE p="48" b="69.75" l="0.5" v="64" c="0"/>
+        <NOTE p="50" b="69.99999999999999" l="0.5" v="64" c="0"/>
+        <NOTE p="55" b="70.25" l="0.5" v="64" c="0"/>
+        <NOTE p="45" b="73.5" l="0.5" v="64" c="0"/>
+        <NOTE p="50" b="73.75" l="0.5" v="64" c="0"/>
+        <NOTE p="53" b="74.0" l="0.5" v="64" c="0"/>
+        <NOTE p="57" b="74.25" l="0.5" v="64" c="0"/>
+        <NOTE p="53" b="72.75" l="0.5" v="64" c="0"/>
+        <NOTE p="47" b="79.25" l="0.25" v="64" c="0"/>
+        <NOTE p="50" b="79.5" l="0.25" v="64" c="0"/>
+        <NOTE p="48" b="79.74999999999999" l="0.2500000000000142" v="64" c="0"/>
+        <NOTE p="45" b="67.25" l="0.5" v="64" c="0"/>
+        <NOTE p="50" b="67.5" l="0.5" v="64" c="0"/>
+        <NOTE p="48" b="67.75" l="0.25" v="64" c="0"/>
+        <NOTE p="36" b="83.25" l="0.25" v="60" c="0"/>
+        <NOTE p="40" b="83.5" l="0.25" v="60" c="0"/>
+        <NOTE p="38" b="83.75" l="0.25" v="60" c="0"/>
+        <NOTE p="41" b="87.5" l="0.25" v="60" c="0"/>
+        <NOTE p="40" b="91.5" l="0.25" v="60" c="0"/>
+        <NOTE p="55" b="76.75" l="0.5" v="64" c="0"/>
+        <NOTE p="50" b="76.49999999999999" l="0.5" v="64" c="0"/>
       </SEQUENCE>
       <QUANTISATION/>
       <GROOVE/>
@@ -1554,8 +1583,8 @@
          solo="0">
     <MACROPARAMETERS id="1013"/>
     <MODIFIERS/>
-    <MIDICLIP name="New MIDI Clip" start="29.53846153846153" length="29.53846153846151"
-              offset="29.53846153846151" id="1078" sync="0" colour="ffffaa00"
+    <MIDICLIP name="New MIDI Clip" start="29.53846153846153" length="29.53846153846153"
+              offset="29.5384615384615" id="1078" sync="0" colour="ffffaa00"
               currentTake="0" speed="1.0">
       <QUANTISATION/>
       <GROOVE/>
